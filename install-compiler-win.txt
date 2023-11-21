@@ -71,3 +71,22 @@ You can use Code Runner with some simple configuration.
     Every time you want to run your c code, just type the icon from the upper right corner that Code Runner provide.
 
 For step 4, you can also open vscode settings and change it on GUI.
+
+
+
+
+    Fix 2:
+
+    Adding another property code-runner.terminalRoot in settings.json as:
+
+"code-runner.terminalRoot": "/"
+
+
+fix on git bash 
+
+
+    Fix 2:
+
+    Adding another property code-runner.terminalRoot in settings.json as:
+
+"code-runner.terminalRoot": "/"
