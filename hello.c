@@ -10,7 +10,9 @@ int main(){
 
 
 }
-// another escape sequence
-// \t 	Creates a horizontal tab 	
-// \\ 	Inserts a backslash character (\) 	
-// \" 	Inserts a double quote character 	
+/* 
+  another escape sequence
+  \t 	Creates a horizontal tab 	
+  \\ 	Inserts a backslash character (\) 	
+  \" 	Inserts a double quote character 	
+*/
