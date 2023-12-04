@@ -20,6 +20,8 @@ printf("%d\n", myAge);printf("%f\n", point); printf("%c\n", initials);
 
 printf("my letter is %c and my age is %d", initials, myAge);
 return 0;
+
+
 // Create variables
 int myNum = 5;             // Integer (whole number)
 float myFloatNum = 5.99;   // Floating point number
