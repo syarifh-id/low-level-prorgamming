@@ -18,7 +18,12 @@ For example, to output the value of an int variable, you must use the format spe
 
 printf("%d\n", myAge);printf("%f\n", point); printf("%c\n", initials);
 
-printf("my letter is %c and my age is %d", initials, myAge);
+myAge = 30;
+//also you can reassign the value of variable
+printf("umurmu sekarang adalah %d\n", myAge);
+
+
+printf("my letter is %c and my age is %d\n", initials, myAge);
 return 0;
 
 
