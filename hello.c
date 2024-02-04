@@ -1,5 +1,4 @@
 // simple syntax
-
 #include <stdio.h> // standart input output
 
 int main(void){ //this mean the function  tidak menerima argument
