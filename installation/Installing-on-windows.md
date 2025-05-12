@@ -1,17 +1,18 @@
-install cp and c++ compiler
+# install cp and c++ compiler
 
 You can download the latest installer from the MSYS2 page or use this direct link to the installer.
-
+'''
 https://github.com/msys2/msys2-installer/releases/download/2024-01-13/msys2-x86_64-20240113.exe
+'''
 
 Run the installer and follow the steps of the installation wizard. Note that MSYS2 requires 64 bit Windows 8.1 or newer.
 
 In the wizard, choose your desired Installation Folder. Record this directory for later. In most cases, the recommended directory is acceptable. The same applies when you get to setting the start menu shortcuts step. When complete, ensure the Run MSYS2 now box is checked and select Finish. This will open a MSYS2 terminal window for you.
 
 In this terminal, install the MinGW-w64 toolchain by running the following command:
-
+'''
 pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
-
+'''
 Accept the default number of packages in the toolchain group by pressing Enter.
 
 Enter Y when prompted whether to proceed with the installation.
