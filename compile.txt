@@ -1,0 +1,7 @@
+nasm -f <> <> -o <>
+ld <> -o 
+
+objdump -M <> -d <>
+objdump -sj .data
+
+
