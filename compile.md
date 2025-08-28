@@ -5,3 +5,4 @@ objdump -M <> -d <>
 objdump -sj .data
 
 
+gcc <> -o file.o
