@@ -1,7 +1,7 @@
 ## Nasm compilation
 
 nasm -f win32 file.s -o file.o
-gcc -no-pie -fno-pie file.o file
+ld hello.o -o hello
 
 ## objdump usage
 
@@ -15,7 +15,8 @@ objdump -M intel --no-show-raw-insn --no-addresses -d helloWorld
 
 ## GCC Compilation
 
-gcc <> -o file.o
+gcc file.c -o file.o
+gcc file.c -o file
 gcc -no-pie -fno-pie
 gcc -Wall -save-temps filename.c –o filename
 
