@@ -1,6 +1,4 @@
-Usage: objdump <option(s)> <file(s)>
- Display information from object <file(s)>.
- At least one of the following switches must be given:
+```
   -a, --archive-headers    Display archive header information
   -f, --file-headers       Display the contents of the overall file header
   -p, --private-headers    Display object format specific file header contents
@@ -88,10 +86,15 @@ Usage: objdump <option(s)> <file(s)>
       --disassembler-color=terminal  Enable disassembler color output if displaying on a terminal.
       --disassembler-color=on        Enable disassembler color output.
       --disassembler-color=extended  Use 8-bit colors in disassembler output.
+```
 
-objdump: supported targets: elf64-x86-64 elf32-i386 elf32-iamcu elf32-x86-64 pei-i386 pe-x86-64 pei-x86-64 elf64-little elf64-big elf32-little elf32-big pe-bigobj-x86-64 pe-i386 pdb srec symbolsrec verilog tekhex binary ihex plugin
-objdump: supported architectures: i386 i386:x86-64 i386:x64-32 i8086 i386:intel i386:x86-64:intel i386:x64-32:intel iamcu iamcu:intel
 
+
+- objdump: supported targets: elf64-x86-64 elf32-i386 elf32-iamcu elf32-x86-64 pei-i386 pe-x86-64 pei-x86-64 elf64-little elf64-big elf32-little elf32-big pe-bigobj-x86-64 pe-i386 pdb srec symbolsrec verilog tekhex binary ihex plugin
+
+- objdump: supported architectures: i386 i386:x86-64 i386:x64-32 i8086 i386:intel i386:x86-64:intel i386:x64-32:intel iamcu iamcu:intel
+
+```
 The following i386/x86-64 specific disassembler options are supported for use
 with the -M switch (multiple options should be separated by commas):
   x86-64      Disassemble in 64bit mode
@@ -116,4 +119,5 @@ Options supported for -P/--private switch:
 For PE files:
   header      Display the file header
   sections    Display the section headers
-Report bugs to <https://sourceware.org/bugzilla/>.
+
+```
