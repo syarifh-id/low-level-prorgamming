@@ -10,15 +10,17 @@ ld -m elf_i386 file.o -o file
 sudo apt install gcc-multilib
 gcc -m32 -nostartfiles -no-pie hello.o -o hello
 ```
-> -elf32 : for 32 architecture
-> -nostartfiles tells the linker not to link the standard system startup files when creating an executable.
+> - elf32 : for 32 architecture
+> - nostartfiles tells the linker not to link the standard system startup files when creating an executable.
+> 
 > Standard Startup Files
+> 
 > Normally, GCC automatically links these files:
-> crt0.o / crt1.o - Contains the actual _start entry point
-> crti.o - Initialization routines (constructor prologue)
-> crtn.o - Finalization routines (constructor epilogue)
-> crtbegin.o / crtend.o - C++ constructor/destructor support
->These files set up the C runtime environment before calling your main() function.
+> - crt0.o / crt1.o - Contains the actual _start entry point
+> - crti.o - Initialization routines (constructor prologue)
+> - crtn.o - Finalization routines (constructor epilogue)
+> - crtbegin.o / crtend.o - C++ constructor/destructor support
+> These files set up the C runtime environment before calling your main() function.
 
 
 ## GCC Compilation basic
