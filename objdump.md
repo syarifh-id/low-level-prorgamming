@@ -1,3 +1,14 @@
+## objdump usage
+```
+objdump -d -M intel
+objdump -j .data
+objdump -s .data
+objdump -d -M intel --disassemble=_main asm/console1.o
+objdump -M intel --no-show-raw-insn --no-addresses -d helloWorld
+```
+
+
+
 ```
   -a, --archive-headers    Display archive header information
   -f, --file-headers       Display the contents of the overall file header
