@@ -100,11 +100,6 @@ objdump -M intel --no-show-raw-insn --no-addresses -d helloWorld
 ```
 
 
-
-- objdump: supported targets: elf64-x86-64 elf32-i386 elf32-iamcu elf32-x86-64 pei-i386 pe-x86-64 pei-x86-64 elf64-little elf64-big elf32-little elf32-big pe-bigobj-x86-64 pe-i386 pdb srec symbolsrec verilog tekhex binary ihex plugin
-
-- objdump: supported architectures: i386 i386:x86-64 i386:x64-32 i8086 i386:intel i386:x86-64:intel i386:x64-32:intel iamcu iamcu:intel
-
 ```
 The following i386/x86-64 specific disassembler options are supported for use
 with the -M switch (multiple options should be separated by commas):

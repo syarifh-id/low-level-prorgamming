@@ -7,7 +7,7 @@ ld -m elf_i386 file.o -o file
 ```
 ## linking with gcc
 ```
-sudo apt install gcc-multilib
+sudo apt install gcc-multilib g++-multilib
 gcc -m32 -nostartfiles -no-pie hello.o -o hello
 ```
 > - -elf32 : for 32 architecture
