@@ -1,9 +1,8 @@
-## objdump usage
+## objdump basic usage
 ```
 objdump -d -M intel
 objdump -j .data
-objdump -s .data
-objdump -d -M intel --disassemble=_main asm/console1.o
+objdump -d -M intel --disassemble=_main
 objdump -M intel --no-show-raw-insn --no-addresses -d helloWorld
 ```
 

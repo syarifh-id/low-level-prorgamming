@@ -4,32 +4,32 @@
 
 ### MSYS2 command
 
-
-```for updating MSYS2
+for updating MSYS2
+```
 pacman -Syu
 ```
-
-```List all installed packages
+List all installed packages
+```
 pacman -Q
 ```
-
-```List installed packages matching a pattern
+List installed packages matching a pattern
+```
 pacman -Q | grep mingw
 ```
-
-```Remove a package and its dependencies (not required by others)
+Remove a package and its dependencies (not required by others)
+```
 pacman -Rs package-name
 ```
-
-```Remove a package forcefully (be careful)
+Remove a package forcefully (be careful)
+```
 pacman -Rdd package-name
 ```
-
-```Clean package cache (free up space)
+Clean package cache (free up space)
+```
 pacman -Sc
 ```
-
-```Clean all cache
+Clean all cache
+```
 pacman -Scc
 ```
 
@@ -38,7 +38,8 @@ pacman -Scc
 pacman -S --needed base-devel mingw-w64-i686-toolchain
 ```
 >Then add C:\msys64\mingw32\bin to env
-```to verify installation
+to verify installation
+```
 gcc --version
 ```
 
